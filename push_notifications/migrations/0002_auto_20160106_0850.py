@@ -15,6 +15,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='apnsdevice',
             name='registration_id',
-            field=models.CharField(max_length=191, unique=True, verbose_name='Registration ID'),
+            field=models.CharField(max_length=191, verbose_name='Registration ID'),
         ),
     ]

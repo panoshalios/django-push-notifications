@@ -149,7 +149,7 @@ class APNSDevice(Device):
 		help_text="UDID / UIDevice.identifierForVendor()"
 	)
 	registration_id = models.CharField(
-		verbose_name=_("Registration ID"), max_length=191, unique=True
+		verbose_name=_("Registration ID"), max_length=191
 	)
 
 	objects = APNSDeviceManager()
